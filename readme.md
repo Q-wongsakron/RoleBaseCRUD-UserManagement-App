@@ -1,10 +1,10 @@
-# 🛡️ User Management System (Spring Boot + MySQL + JWT)
+# User Management System (Spring Boot + MySQL + JWT)
 
 A secure RESTful API for user registration, login, role-based access control, and token management using Spring Boot, MySQL, and JWT.
 
 ---
 
-## 📌 Features
+## Features
 
 - User Registration & Login
 - JWT Authentication (Access & Refresh Tokens)
@@ -17,7 +17,7 @@ A secure RESTful API for user registration, login, role-based access control, an
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 
 - **Spring Boot**
 - **Spring Security**
@@ -29,7 +29,7 @@ A secure RESTful API for user registration, login, role-based access control, an
 
 ---
 
-## 🔐 Spring Security + JWT
+## Spring Security + JWT
 
 ### JWT Workflow
 
@@ -47,22 +47,22 @@ A secure RESTful API for user registration, login, role-based access control, an
 
 ---
 
-## 🧠 What I Learn
+## What I Learn
 
-### ✅ Spring Boot Basics
+### Spring Boot Basics
 
 - REST APIs using `@RestController`, `@PostMapping`, `@GetMapping`, etc.
 - Dependency Injection using `@Service`, `@Component`
 - How to build secure REST APIs with Spring Security
 
-### ✅ Authentication & Authorization
+### Authentication & Authorization
 
 - Stateless security using JWT
 - Build secure REST APIs with Spring Security
 - Password hashing with BCrypt
 - Role-based endpoint protection via `.hasAnyAuthority("ADMIN")`, etc
 
-### ✅ Clean Architecture
+### Clean Architecture
 
 - Controller → Service → Repository layering
 - Separation of concerns(controller, service, repo)
@@ -70,7 +70,7 @@ A secure RESTful API for user registration, login, role-based access control, an
 
 ---
 
-## 🔑 Keywords to Remember
+## Keywords to Remember
 
 | Keyword                               | Purpose                              |
 | ------------------------------------- | ------------------------------------ |
@@ -89,7 +89,7 @@ A secure RESTful API for user registration, login, role-based access control, an
 
 ---
 
-## 🧪 Postman Testing Example
+## Postman Testing Example
 
 1. Register:
 
@@ -112,7 +112,7 @@ A secure RESTful API for user registration, login, role-based access control, an
 
 ---
 
-## 🧪 Example API Endpoints
+## Example API Endpoints
 
 | Endpoint                 | Method | Description                              |
 | ------------------------ | ------ | ---------------------------------------- |
@@ -127,7 +127,7 @@ A secure RESTful API for user registration, login, role-based access control, an
 
 ---
 
-## 📂 Environment Setup
+## Environment Setup
 
 ```bash
 # application.properties (example)
